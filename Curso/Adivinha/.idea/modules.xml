@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Adivinha.iml" filepath="$PROJECT_DIR$/Adivinha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/Adivinha-app.iml" filepath="$PROJECT_DIR$/app/Adivinha-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curso-Adivinha.iml" filepath="$PROJECT_DIR$/Curso-Adivinha.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

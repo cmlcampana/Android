@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo_tela"
+    tools:context="gasolinaoualcool.cursoandroid.com.gasolinaoualcool.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="81dp"
+            android:background="@drawable/logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Preço Álcool"
+                android:textColor="@color/cor_texto"
+                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Preço Gasolina"
+                android:textColor="@color/cor_texto"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <EditText
+                android:id="@+id/edtPrecoAlcool"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:background="@android:color/white"
+                android:padding="8dp"/>
+
+            <EditText
+                android:id="@+id/edtPrecoGasolina"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:background="@android:color/white"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Verificar"
+            android:layout_marginTop="30dp"
+            android:id="@+id/btnVerificar"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cor_texto"
+            android:textSize="20sp"
+            android:id="@+id/txtTextoResultado"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

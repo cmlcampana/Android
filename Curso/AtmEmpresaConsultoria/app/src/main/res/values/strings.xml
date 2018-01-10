@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AtmEmpresaConsultoria</string>
+    <string name="empresa_detalhes">Sobre a empresa</string>
+    <string name="texto_gerado">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae convallis eros, eu lacinia quam. Morbi purus est, semper quis libero at, lacinia vulputate est. Duis vehicula, sapien nec volutpat consequat, magna nulla ullamcorper odio, quis euismod enim enim quis enim. Morbi blandit sit amet diam eget volutpat. Praesent varius mi vitae risus pellentesque, at pharetra ex facilisis. Nulla vestibulum quis odio nec luctus. Donec imperdiet porttitor erat ut eleifend. Quisque id egestas risus, sit amet ornare massa. Nam diam turpis, varius at dignissim quis, mattis feugiat magna. Fusce cursus semper nulla sit amet sollicitudin. Sed et pharetra ante, at pellentesque urna. Donec sed est a orci mollis varius et in eros.  Vivamus commodo, justo sed sagittis euismod, odio orci eleifend enim, sed fermentum mi mauris a turpis. Nullam at sapien eros. Proin ac neque in leo sagittis posuere ut vitae nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Integer vulputate mi interdum vehicula pretium. Quisque maximus accumsan orci a accumsan. Donec lacinia, turpis ac iaculis tincidunt, erat ipsum luctus felis, sed tempor lectus mauris in massa. Cras gravida auctor venenatis. Donec ultricies nibh sed ultricies maximus. Integer dapibus nisl vel mattis vehicula. Duis ac lectus ex. Etiam semper dolor gravida ligula laoreet, non blandit urna aliquet. Sed dignissim finibus libero vitae rutrum. Fusce non lorem rutrum, tempus urna laoreet, semper elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae convallis eros, eu lacinia quam. Morbi purus est, semper quis libero at, lacinia vulputate est. Duis vehicula, sapien nec volutpat consequat, magna nulla ullamcorper odio, quis euismod enim enim quis enim. Morbi blandit sit amet diam eget volutpat. Praesent varius mi vitae risus pellentesque, at pharetra ex facilisis. Nulla vestibulum quis odio nec luctus. Donec imperdiet porttitor erat ut eleifend. Quisque id egestas risus, sit amet ornare massa. Nam diam turpis, varius at dignissim quis, mattis feugiat magna. Fusce cursus semper nulla sit amet sollicitudin. Sed et pharetra ante, at pellentesque urna. Donec sed est a orci mollis varius et in eros.  Vivamus commodo, justo sed sagittis euismod, odio orci eleifend enim, sed fermentum mi mauris a turpis. Nullam at sapien eros. Proin ac neque in leo sagittis posuere ut vitae nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Integer vulputate mi interdum vehicula pretium. Quisque maximus accumsan orci a accumsan. Donec lacinia, turpis ac iaculis tincidunt, erat ipsum luctus felis, sed tempor lectus mauris in massa. Cras gravida auctor venenatis. Donec ultricies nibh sed ultricies maximus. Integer dapibus nisl vel mattis vehicula. Duis ac lectus ex. Etiam semper dolor gravida ligula laoreet, non blandit urna aliquet. Sed dignissim finibus libero vitae rutrum. Fusce non lorem rutrum, tempus urna laoreet, semper elit.</string>
+    <string name="servico_detalhes">Serviços</string>
+
+    <string name="consultoria">Consultoria</string>
+    <string name="processos">Processos</string>
+    <string name="acomp_projetos">Acompanhamento e projetos</string>
+
+    <string name="clientes_detalhes">Nossos Clientes</string>
+    <string name="sys_detalhe">Empresa de desenvolvimento de sistemas</string>
+    <string name="rsm_detalhe">Empresa de auditoria</string>
+
+    <string name="contato_detalhe">Contato</string>
+    <string name="email">E-mail: consultoria@atm.com.br</string>
+    <string name="telefone">Telefone: (11)11111-1111</string>
+    <string name="celular">Celular: (11)99999-9999</string>
+</resources>
