@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/medida_logos"
+        android:layout_height="@dimen/medida_logos"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@drawable/sobre_cinesi" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:text="A Clínica"
+        android:textSize="@dimen/titulo_detalhe" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:padding="15dp"
+        android:layout_marginBottom="60dp"
+        android:verticalScrollbarPosition="right">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textoEmpresa1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sobre_clinica"
+                android:textSize="@dimen/tamanho_texto"/>
+
+            <TextView
+                android:id="@+id/textoEmpresa2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/missao"
+                android:layout_marginTop="20dp"
+                android:textSize="@dimen/tamanho_texto"/>
+
+            <TextView
+                android:id="@+id/textoEmpresa3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/visao"
+                android:layout_marginTop="20dp"
+                android:textSize="@dimen/tamanho_texto"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textoRodape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/endereco"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray" />
+</RelativeLayout>

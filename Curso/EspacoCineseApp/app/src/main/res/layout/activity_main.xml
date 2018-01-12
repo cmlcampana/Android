@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/logoId"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/logoSobreId"
+        android:layout_width="@dimen/medida_logos"
+        android:layout_height="@dimen/medida_logos"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/logoId"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/sobre_cinesi" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/logoSobreId"
+        android:layout_alignLeft="@+id/logoSobreId"
+        android:layout_alignRight="@+id/logoSobreId"
+        android:layout_alignStart="@+id/logoSobreId"
+        android:layout_below="@+id/logoSobreId"
+        android:text="A Clínica"
+        android:textAlignment="center"
+        android:textSize="15sp"/>
+
+    <ImageView
+        android:id="@+id/logoPilatesId"
+        android:layout_width="@dimen/medida_logos"
+        android:layout_height="@dimen/medida_logos"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/logoSobreId"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:background="@drawable/pilates_cinesi" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/logoPilatesId"
+        android:layout_alignLeft="@+id/logoPilatesId"
+        android:layout_alignRight="@+id/logoPilatesId"
+        android:layout_alignStart="@+id/logoPilatesId"
+        android:layout_below="@+id/logoPilatesId"
+        android:text="Pilates"
+        android:textAlignment="center"
+        android:textSize="15sp"/>
+
+    <ImageView
+        android:id="@+id/logoProcedimentoId"
+        android:layout_width="@dimen/medida_logos"
+        android:layout_height="@dimen/medida_logos"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/procedimentos" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/logoProcedimentoId"
+        android:layout_marginLeft="59dp"
+        android:layout_marginStart="59dp"
+        android:text="Procedimentos"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/logoContatoId"
+        android:layout_width="@dimen/medida_logos"
+        android:layout_height="@dimen/medida_logos"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:background="@drawable/contato" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/logoContatoId"
+        android:layout_alignStart="@+id/logoContatoId"
+        android:layout_below="@+id/logoContatoId"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:text="Contato"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textoRodape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/endereco"
+        android:textAlignment="center"
+
+        android:textColor="@android:color/darker_gray" />
+
+</RelativeLayout>
